@@ -32,6 +32,11 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# JSSS (JavaScript Style Sheets) source file
+*.jsss linguist-detectable=true
+*.jsss linguist-documentation=false
+*.jsss linguist-language=JSSS
+# I know it isn't recognized by GitHub, I would substitute it for CSS or JS, but the languages are too different. For now, this will return null (not show up in the Linguist area) and HTML will be the main language for this project.
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -164,7 +169,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2022, Monday, October 10th at 5:35 pm PST)
+# Line count (including blank lines and compiler line): 176
 # End of script
